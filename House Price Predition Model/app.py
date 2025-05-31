@@ -8,7 +8,7 @@ import json
 st.set_page_config(page_title="Smart House Price Predictor + AI Insights", page_icon="🏡")
 @st.cache_resource
 def load_model():
-    return joblib.load("house_price_model.pkl")
+    return joblib.load("House Price Predition Model/house_price_model.pkl")
 
 model = load_model()
 
